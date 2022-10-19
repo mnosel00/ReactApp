@@ -6,5 +6,9 @@ interface IProps {
   arr: [number, number, number]
 }
 export const Home: FC<IProps> = (props) => {
-  return <>Home My first name is {props.name}</>
+  return (
+    <>
+      Home My first name is {props.name} , {props.age}
+    </>
+  )
 }
